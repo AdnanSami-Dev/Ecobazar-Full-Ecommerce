@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+@theme {
+  --font-pop: "Poppins", sans-serif;
+}
+
+.top-nav{
+  @apply text-[12px] font-normal leading-[130%] text-[#666666] items-center font-pop 
+}
+
+.nav-buttons ul li a{
+  @apply text-[14px] leading-[150%] font-medium font-pop flex items-center gap-1 text-[#999999] hover:text-[#FFFFFF] duration-500
+}
+.footer-ul ul li a{
+  @apply text-[14px] leading-[150%] font-normal font-pop text-[#999999] hover:text-[#FFFFFF] duration-500
+}
+
+.all-text{
+  @apply text-[14px] leading-[150%] font-pop
+}
