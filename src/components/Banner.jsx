@@ -12,14 +12,14 @@ const Banner = () => {
           <Container>
             <div className="flex gap-6 py-6">
               <div className="w-[67.5%]">
-                <img src={Banner1} alt="" className='rounded-xl'/>
+                <img src={Banner1} alt="" className='rounded-xl w-full h-full object-cover'/>
               </div>
               <div className="w-[33.5%] flex flex-col gap-5">
                 <div className="">
-                  <img src={Banner2} alt="" />
+                  <img src={Banner2} alt="" className="w-full h-full object-cover"/>
                 </div>
                 <div className="">
-                  <img src={Banner3} alt="" />
+                  <img src={Banner3} alt="" className="w-full h-full object-cover"/>
                 </div>
               </div>
             </div>
